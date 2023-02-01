@@ -1,0 +1,14 @@
+$primary: #a9d0de;
+$danger: #a71b29;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+.divider{
+    height: 3px;
+    width: 50px;
+    background-color: #1f88ad;
+}
+.red-tint{
+    filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(270deg);
+}
+.green-tint{
+    filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(120deg);
+}
